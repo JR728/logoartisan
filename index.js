@@ -1,3 +1,4 @@
-const shape = require('./lib/shapes.js')
+const inquirer = require('inquirer');
+const fs = require('fs');
+const shape = require('./lib/shapes.js');
 
-console.log(shape.triangle)
